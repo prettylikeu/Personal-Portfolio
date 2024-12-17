@@ -1,0 +1,886 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 2182px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-db {
+  position: relative;
+  width: 1120px;
+  height: 30px;
+  margin: 56px 0 0 160px;
+  z-index: 4;
+}
+.about-me {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.work {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 846px;
+  color: #7b8894;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 942px;
+  color: #7b8894;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 1038px;
+  color: #7b8894;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.flex-row {
+  position: relative;
+  width: 1178px;
+  height: 453px;
+  margin: 77px 0 0 160px;
+  z-index: 66;
+}
+.image {
+  position: absolute;
+  width: 410px;
+  height: 410px;
+  top: 0;
+  left: 768px;
+  background: url(./assets/images/1bbc4c79-95f8-46e3-a190-a1f34ef10ea4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 66;
+  border-radius: 50%;
+}
+.hello-welcome {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 46px;
+  left: 0;
+  color: #ff6464;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.massage-therapist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 380px;
+  height: 120px;
+  top: 85px;
+  left: 0;
+  color: #21243d;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 5;
+  overflow: hidden;
+}
+.feeling-better {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 584px;
+  height: 72px;
+  top: 245px;
+  left: 0;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 7;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  width: 168px;
+  height: 56px;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  background: #413a38;
+  border: none;
+  transform: translate(-347.02%, 304.46%);
+  z-index: 11;
+  border-radius: 30px;
+}
+.contact-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: calc(50% - 15px);
+  left: calc(50% - 52px);
+  color: #ffffff;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.rectangle-1 {
+  position: relative;
+  width: 1440px;
+  height: 389px;
+  margin: 136px 0 0 0;
+  background: #edf7fa;
+  overflow: visible auto;
+}
+.flex-row-fa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1120px;
+  height: 32px;
+  margin: 29px 0 0 160px;
+  z-index: 15;
+}
+.recent-posts {
+  flex-shrink: 0;
+  position: relative;
+  height: 32px;
+  color: #21243d;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.view-all {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+  width: 56px;
+  height: 24px;
+  color: #00a8cc;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: right;
+  white-space: nowrap;
+  z-index: 15;
+}
+.flex-row-bf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1120px;
+  height: 252px;
+  margin: 24px 0 0 160px;
+  z-index: 27;
+}
+.rectangle-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 352px;
+  height: 252px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 17;
+}
+.perks-of-routine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 272px;
+  height: 71px;
+  margin: 21px 0 0 21px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 19;
+}
+.feb {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 16px 0 0 21px;
+  color: #94a4b4;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.know-how-routine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 310px;
+  height: 72px;
+  margin: 24px 0 0 21px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  z-index: 18;
+}
+.rectangle-3 {
+  flex-shrink: 0;
+  position: relative;
+  width: 352px;
+  height: 252px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 22;
+}
+.select-a-suitable {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 331px;
+  height: 71px;
+  margin: 21px 0 0 21px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 24;
+}
+.dec {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 16px 0 0 21px;
+  color: #94a4b4;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+}
+.swedish-deep-tissue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 310px;
+  height: 72px;
+  margin: 24px 0 0 21px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  z-index: 23;
+}
+.rectangle-4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 352px;
+  height: 252px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 27;
+}
+.stress-relief-tips {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 292px;
+  height: 71px;
+  margin: 21px 0 0 21px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 29;
+}
+.dec-5 {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 16px 0 0 21px;
+  color: #94a4b4;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.massage-tips {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 310px;
+  height: 72px;
+  margin: 24px 0 0 21px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  z-index: 28;
+}
+.featured-works {
+  display: block;
+  position: relative;
+  height: 32px;
+  margin: 64px 0 0 160px;
+  color: #21243d;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.flex-row-aa {
+  position: relative;
+  width: 1024px;
+  height: 193px;
+  margin: 19px 0 0 160px;
+  z-index: 41;
+}
+.chill-out-package {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 44px;
+  top: 0;
+  left: 288px;
+  color: #21243d;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 34;
+}
+.image-6 {
+  position: absolute;
+  width: 256px;
+  height: 185px;
+  top: 8px;
+  left: 0;
+  background: url(./assets/images/bc16531d86a890d767260a11834167b9a3dd5f56.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 31;
+  border-radius: 7px;
+}
+.relaxation-therapy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 64px;
+  left: 384px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 37;
+}
+.rectangle-7 {
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  top: 66px;
+  left: 288px;
+  background: #142850;
+  z-index: 41;
+  border-radius: 16px;
+}
+.year {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 1px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 23.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 42;
+}
+.break-package {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 736px;
+  height: 72px;
+  top: 112px;
+  left: 288px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  z-index: 8;
+}
+.line {
+  position: relative;
+  width: 1120px;
+  height: 1px;
+  margin: 22px 0 0 160px;
+  background: url(./assets/images/7d0719f5-12e0-4bf5-b29d-f76b8ba7c3c4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+}
+.flex-row-dbb {
+  position: relative;
+  width: 1024px;
+  height: 193px;
+  margin: 16px 0 0 160px;
+  z-index: 44;
+}
+.deep-tissue-fix {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 44px;
+  top: 0;
+  left: 288px;
+  color: #21243d;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 35;
+}
+.image-8 {
+  position: absolute;
+  width: 256px;
+  height: 185px;
+  top: 8px;
+  left: 0;
+  background: url(./assets/images/8127ef73efa8ec9e19c00fff18d9f71b485edef9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 32;
+  border-radius: 7px;
+}
+.pain-relief-therapy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 64px;
+  left: 384px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 38;
+}
+.rectangle-9 {
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  top: 66px;
+  left: 288px;
+  background: #142850;
+  z-index: 44;
+  border-radius: 16px;
+}
+.text-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 1px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 23.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 45;
+}
+.stubborn-aches-muscle-tension {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 736px;
+  height: 48px;
+  top: 112px;
+  left: 288px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  z-index: 9;
+}
+.line-a {
+  position: relative;
+  width: 1120px;
+  height: 1px;
+  margin: 22px 0 0 160px;
+  background: url(./assets/images/86d68174-4d25-44d8-a848-e5cad06c4b29.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 50;
+}
+.flex-row-dad {
+  position: relative;
+  width: 1024px;
+  height: 193px;
+  margin: 24px 0 0 160px;
+  z-index: 47;
+}
+.stress-reset-plan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 44px;
+  top: 0;
+  left: 288px;
+  color: #21243d;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 36;
+}
+.image-b {
+  position: absolute;
+  width: 256px;
+  height: 185px;
+  top: 8px;
+  left: 0;
+  background: url(./assets/images/5496fa4f84b9a59d3fcfd0efb4bb026efa0aef0a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+  border-radius: 7px;
+}
+.custom-therapy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 60px;
+  left: 384px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 39;
+}
+.rectangle-c {
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  top: 66px;
+  left: 288px;
+  background: #142850;
+  z-index: 47;
+  border-radius: 16px;
+}
+.massage-techniques {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 1px;
+  left: 12px;
+  color: #ffffff;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 23.5px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 48;
+}
+.feeling-overwhelmed {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 736px;
+  height: 72px;
+  top: 112px;
+  left: 288px;
+  color: #07060c;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  z-index: 10;
+}
+.line-d {
+  position: relative;
+  width: 1120px;
+  height: 1px;
+  margin: 22px 0 0 160px;
+  background: url(./assets/images/be20129e-abd6-41e4-99cd-49e13a8bc482.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 51;
+}
+.rectangle-e {
+  position: relative;
+  width: 1440px;
+  height: 182px;
+  margin: 56px 0 0 0;
+  background: #fdfdfd;
+  z-index: 52;
+  overflow: visible auto;
+}
+.flex-row-f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 186px;
+  height: 24px;
+  margin: 56px 0 0 627px;
+  z-index: 65;
+}
+.mdi-twitter {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/images/9c389e97-5441-4ca0-8fcf-cda9fe33211c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 59;
+  overflow: hidden;
+}
+.ri-instagram-fill {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/images/08b19cfd-295e-4c7b-9c51-f0c24b5ad447.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 63;
+  overflow: hidden;
+}
+.mdi-linkedin {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/images/f277c449-5e15-40be-9b79-f86c56f31f46.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 61;
+  overflow: hidden;
+}
+.gg-figma {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/images/4f4bcf42-7bed-4bc6-986b-5630fa24059a.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 65;
+  overflow: hidden;
+}
+.flex-row-f {
+  position: relative;
+  width: 259px;
+  height: 24px;
+  margin: 32px 0 0 590px;
+  z-index: 57;
+}
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 54;
+}
+.all-right-reserved {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 168px;
+  height: 24px;
+  top: 0;
+  left: 91px;
+  color: #000000;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 55;
+}
+.ic-baseline-copyright {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 72px;
+  background: url(./assets/images/e19a51a1-e2f0-450e-86ff-115b7bef77e0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 57;
+  overflow: hidden;
+}
